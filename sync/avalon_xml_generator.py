@@ -9,7 +9,7 @@ from xml.dom import minidom
 # Image URLs comeback as localhost, and if you are running
 # Plex on a different server in your network, images won't
 # work. Can set to localhost if everything runs on same server.
-LAN_ADDRESS = "192.168.50.202"
+LAN_ADDRESS = "192.168.1.89"
 
 FRAGMENT = json.loads(sys.stdin.read())
 FRAGMENT_SERVER = FRAGMENT["server_connection"]
