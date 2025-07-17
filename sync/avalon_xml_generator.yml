@@ -4,7 +4,7 @@
   version: 0.1.0
   exec:
     - python
-    - "{pluginDir}/avalon_xml_generator.py"
+    - "{pluginDir}/sync/avalon_xml_generator.py"
   interface: raw
   hooks:
     - name: 'Metadata to XML'
