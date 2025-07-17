@@ -10,6 +10,6 @@ hooks:
   - name: 'Metadata to XML'
     description: Save local copy of scene metadata as XML alongside scene.
     defaultArgs:
-      lanAddress: 192.168.50.202 #localhost
+      lanAddress: 192.168.1.89 #localhost
     triggeredBy:
       - Scene.Update.Post
